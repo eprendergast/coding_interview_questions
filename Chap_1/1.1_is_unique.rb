@@ -1,4 +1,3 @@
-# 1.1
 def is_unique?(string)
     characters = {}
     
@@ -8,5 +7,5 @@ def is_unique?(string)
     return true
 end
 
-# string = 'hello'
-# puts all_unique_characters?(string)
+string = 'hello'
+puts all_unique_characters?(string)
