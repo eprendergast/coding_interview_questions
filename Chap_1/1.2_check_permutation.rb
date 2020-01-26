@@ -1,6 +1,6 @@
 require 'byebug'
 
-def check_permutation(string_a, string_b)
+def check_permutation?(string_a, string_b)
     if string_a == string_b
         return true
     end
