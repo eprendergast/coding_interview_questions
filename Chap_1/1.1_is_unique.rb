@@ -1,6 +1,5 @@
 # 1.1
-
-def all_unique_characters?(string)
+def is_unique?(string)
     characters = {}
     
     string.each_char do |char|
@@ -9,6 +8,5 @@ def all_unique_characters?(string)
     return true
 end
 
-string = 'helo'
-
-puts all_unique_characters?(string)
+# string = 'hello'
+# puts all_unique_characters?(string)
